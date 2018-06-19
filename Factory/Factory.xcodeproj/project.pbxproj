@@ -15,6 +15,12 @@
 		AD976F8220D820040090A4B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD976F8120D820040090A4B2 /* main.m */; };
 		AD976F8C20D820040090A4B2 /* FactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD976F8B20D820040090A4B2 /* FactoryTests.m */; };
 		AD976F9720D820040090A4B2 /* FactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD976F9620D820040090A4B2 /* FactoryUITests.m */; };
+		ADBC29B520D950180065FA45 /* CarCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29B420D950180065FA45 /* CarCreator.m */; };
+		ADBC29B720D950250065FA45 /* DroneCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29B620D950250065FA45 /* DroneCreator.m */; };
+		ADBC29B920D950310065FA45 /* Drone.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29B820D950310065FA45 /* Drone.m */; };
+		ADBC29BB20D9503A0065FA45 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29BA20D9503A0065FA45 /* Car.m */; };
+		ADBC29BD20D950490065FA45 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29BC20D950490065FA45 /* Factory.m */; };
+		ADBC29BF20D9505B0065FA45 /* Transportation.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBC29BE20D9505B0065FA45 /* Transportation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		AD976F9220D820040090A4B2 /* FactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD976F9620D820040090A4B2 /* FactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryUITests.m; sourceTree = "<group>"; };
 		AD976F9820D820040090A4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADBC29B420D950180065FA45 /* CarCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarCreator.m; sourceTree = "<group>"; };
+		ADBC29B620D950250065FA45 /* DroneCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneCreator.m; sourceTree = "<group>"; };
+		ADBC29B820D950310065FA45 /* Drone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drone.m; sourceTree = "<group>"; };
+		ADBC29BA20D9503A0065FA45 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		ADBC29BC20D950490065FA45 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		ADBC29BE20D9505B0065FA45 /* Transportation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transportation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +113,18 @@
 		AD976F7120D820030090A4B2 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				AD976F8120D820040090A4B2 /* main.m */,
 				AD976F7220D820030090A4B2 /* AppDelegate.h */,
 				AD976F7320D820030090A4B2 /* AppDelegate.m */,
-				AD976F7520D820030090A4B2 /* ViewController.h */,
-				AD976F7620D820030090A4B2 /* ViewController.m */,
-				AD976F7820D820030090A4B2 /* Main.storyboard */,
-				AD976F7B20D820040090A4B2 /* Assets.xcassets */,
-				AD976F7D20D820040090A4B2 /* LaunchScreen.storyboard */,
+				ADBC29BC20D950490065FA45 /* Factory.m */,
+				ADBC29BE20D9505B0065FA45 /* Transportation.m */,
+				ADBC29B220D94FC80065FA45 /* Creator */,
+				ADBC29B320D94FDD0065FA45 /* Transport */,
+				ADBC29B120D94F970065FA45 /* Resources */,
+				ADBC29B020D94F890065FA45 /* Models */,
+				ADBC29AF20D94F800065FA45 /* Views */,
+				ADBC29AE20D94F6A0065FA45 /* Controllers */,
 				AD976F8020D820040090A4B2 /* Info.plist */,
-				AD976F8120D820040090A4B2 /* main.m */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -130,6 +145,57 @@
 				AD976F9820D820040090A4B2 /* Info.plist */,
 			);
 			path = FactoryUITests;
+			sourceTree = "<group>";
+		};
+		ADBC29AE20D94F6A0065FA45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD976F7520D820030090A4B2 /* ViewController.h */,
+				AD976F7620D820030090A4B2 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADBC29AF20D94F800065FA45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD976F7820D820030090A4B2 /* Main.storyboard */,
+				AD976F7D20D820040090A4B2 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADBC29B020D94F890065FA45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADBC29B120D94F970065FA45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD976F7B20D820040090A4B2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADBC29B220D94FC80065FA45 /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC29B420D950180065FA45 /* CarCreator.m */,
+				ADBC29B620D950250065FA45 /* DroneCreator.m */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		ADBC29B320D94FDD0065FA45 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				ADBC29B820D950310065FA45 /* Drone.m */,
+				ADBC29BA20D9503A0065FA45 /* Car.m */,
+			);
+			path = Transport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBC29BF20D9505B0065FA45 /* Transportation.m in Sources */,
+				ADBC29B920D950310065FA45 /* Drone.m in Sources */,
 				AD976F7720D820030090A4B2 /* ViewController.m in Sources */,
+				ADBC29B720D950250065FA45 /* DroneCreator.m in Sources */,
+				ADBC29B520D950180065FA45 /* CarCreator.m in Sources */,
+				ADBC29BD20D950490065FA45 /* Factory.m in Sources */,
+				ADBC29BB20D9503A0065FA45 /* Car.m in Sources */,
 				AD976F8220D820040090A4B2 /* main.m in Sources */,
 				AD976F7420D820030090A4B2 /* AppDelegate.m in Sources */,
 			);

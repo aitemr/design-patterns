@@ -9,16 +9,19 @@ I hope that my codes will help you to solve some problems.
 Creational:
 
 - [Factory](https://refactoring.guru/design-patterns/factory-method)
+- [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+- [Object Pool](#)
 
 Structural:
 
 - [Adapter](https://refactoring.guru/design-patterns/adapter)
+- [Decorator](https://refactoring.guru/design-patterns/decorator)
 
 Behavioral:
 
-- [Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
+## Support
 
-If you find something useful or interesting please feel free to grab, or give me feedback via email: aitemr16@gmail.com
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/aitemr/design-patterns/issues/new) or give me feedback via email: aitemr16@gmail.com
 
 ## License
 

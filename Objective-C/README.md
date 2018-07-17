@@ -25,4 +25,4 @@ If you have a question, find a bug, or just want to say hi, please open an [issu
 
 ## License
 
-[MIT License](./LICENSE) © Islam Temirbek
+[MIT License](https://github.com/aitemr/design-patterns/blob/master/LICENSE) © Islam Temirbek

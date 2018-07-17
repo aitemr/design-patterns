@@ -6,18 +6,9 @@ I hope that my codes will help you to solve some problems.
 
 ## Patterns
 
-Creational:
-
-- [Factory](https://refactoring.guru/design-patterns/factory-method)
-- [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
-- [Object Pool](#)
-
-Structural:
-
-- [Adapter](https://refactoring.guru/design-patterns/adapter)
-- [Decorator](https://refactoring.guru/design-patterns/decorator)
-
-Behavioral:
+1.  [Creational](https://github.com/aitemr/design-patterns/tree/master/Creational)
+2.  [Structural](https://github.com/aitemr/design-patterns/tree/master/Structural)
+3.  [Behavioral](https://github.com/aitemr/design-patterns/tree/master/Behavioral)
 
 ## Support
 

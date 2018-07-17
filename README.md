@@ -6,8 +6,8 @@ I hope that my codes will help you to solve some problems.
 
 ## Languages
 
-1.  [Objective-C]()
-2.  [Swift]()
+1.  [Objective-C](https://github.com/aitemr/design-patterns/tree/master/Objective-C)
+2.  [Swift](https://github.com/aitemr/design-patterns/tree/master/Swift)
 
 ## Support
 

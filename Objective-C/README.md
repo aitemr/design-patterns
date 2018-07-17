@@ -4,10 +4,20 @@ This is my personal repository of design patterns implementations on `iOS` that 
 
 I hope that my codes will help you to solve some problems.
 
-## Languages
+## Patterns
 
-1.  [Objective-C]()
-2.  [Swift]()
+Creational:
+
+- [Factory](https://refactoring.guru/design-patterns/factory-method)
+- [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+- [Object Pool](#)
+
+Structural:
+
+- [Adapter](https://refactoring.guru/design-patterns/adapter)
+- [Decorator](https://refactoring.guru/design-patterns/decorator)
+
+Behavioral:
 
 ## Support
 

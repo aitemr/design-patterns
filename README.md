@@ -1,6 +1,6 @@
 # Design Patterns
 
-This is my personal repository of design patterns implementations on `iOS` that I wrote through the time.
+This is my personal repository of design patterns implementations on `Swift` that I wrote through the time.
 
 I hope that my codes will help you to solve some problems.
 

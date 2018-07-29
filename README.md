@@ -1,5 +1,10 @@
 # Design Patterns
 
+[![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
+[![Build Status](https://travis-ci.org/aitemr/design-patterns.svg?branch=master)](https://travis-ci.org/aitemr/design-patterns)
+[![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This is my personal repository of design patterns implementations on `Swift` that I wrote through the time.
 
 I hope that my codes will help you to solve some problems.

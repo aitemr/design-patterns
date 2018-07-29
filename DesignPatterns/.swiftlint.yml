@@ -5,6 +5,10 @@ disabled_rules:
   - operator_whitespace
   - trailing_whitespace
 
+line_length:
+  - 120 #warning
+  - 150 #error
+
 type_body_length:
   - 400 #warning
   - 600 #error

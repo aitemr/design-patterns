@@ -191,6 +191,7 @@
 				AD45B02220FE05A50012BF4C /* Sources */,
 				AD45B02320FE05A50012BF4C /* Frameworks */,
 				AD45B02420FE05A50012BF4C /* Resources */,
+				ADDBFDBA210E0F0900A886AE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -306,6 +307,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADDBFDBA210E0F0900A886AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD45B02220FE05A50012BF4C /* Sources */ = {
@@ -488,7 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89552A5N47;
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 89552A5N47;
-				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DesignPatterns/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

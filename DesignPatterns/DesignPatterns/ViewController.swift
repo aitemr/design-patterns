@@ -10,7 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var maker: ButtonMaker?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        initialize()
+        render()
+    }
+    
+    func initialize() {
+        maker = TouchableOpacityMaker()
+    }
+    
+    func render() {
+        maker?.renderWindow()
     }
 }

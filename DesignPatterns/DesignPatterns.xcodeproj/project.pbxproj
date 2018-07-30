@@ -14,6 +14,12 @@
 		AD45B03420FE05A60012BF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD45B03220FE05A60012BF4C /* LaunchScreen.storyboard */; };
 		AD45B03F20FE05A60012BF4C /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45B03E20FE05A60012BF4C /* DesignPatternsTests.swift */; };
 		AD45B04A20FE05A60012BF4C /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45B04920FE05A60012BF4C /* DesignPatternsUITests.swift */; };
+		ADC1AB8E210F63E8009652DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8D210F63E8009652DB /* Button.swift */; };
+		ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */; };
+		ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */; };
+		ADC1AB95210F64A2009652DB /* ButtonMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB94210F64A2009652DB /* ButtonMaker.swift */; };
+		ADC1AB97210F64E3009652DB /* TouchableOpacityMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */; };
+		ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		AD45B04520FE05A60012BF4C /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD45B04920FE05A60012BF4C /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		AD45B04B20FE05A60012BF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC1AB8D210F63E8009652DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableOpacity.swift; sourceTree = "<group>"; };
+		ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableWithoutFeedback.swift; sourceTree = "<group>"; };
+		ADC1AB94210F64A2009652DB /* ButtonMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMaker.swift; sourceTree = "<group>"; };
+		ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableOpacityMaker.swift; sourceTree = "<group>"; };
+		ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableWithoutFeedbackMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,9 @@
 			children = (
 				AD45B02920FE05A50012BF4C /* AppDelegate.swift */,
 				AD45B02B20FE05A50012BF4C /* ViewController.swift */,
-				AD45B05920FE06950012BF4C /* Structural */,
-				AD45B05820FE068C0012BF4C /* Behavioral */,
-				AD45B05720FE06820012BF4C /* Creational */,
+				ADC1AB86210F6367009652DB /* Creational */,
+				ADC1AB88210F6383009652DB /* Structural */,
+				ADC1AB8A210F6396009652DB /* Behavioral */,
 				AD45B05D20FE06FE0012BF4C /* Resources */,
 			);
 			path = DesignPatterns;
@@ -125,51 +137,6 @@
 			path = DesignPatternsUITests;
 			sourceTree = "<group>";
 		};
-		AD45B05720FE06820012BF4C /* Creational */ = {
-			isa = PBXGroup;
-			children = (
-				AD45B05A20FE06A80012BF4C /* Factory */,
-			);
-			path = Creational;
-			sourceTree = "<group>";
-		};
-		AD45B05820FE068C0012BF4C /* Behavioral */ = {
-			isa = PBXGroup;
-			children = (
-				AD45B05C20FE06EB0012BF4C /* Observer */,
-			);
-			path = Behavioral;
-			sourceTree = "<group>";
-		};
-		AD45B05920FE06950012BF4C /* Structural */ = {
-			isa = PBXGroup;
-			children = (
-				AD45B05B20FE06C70012BF4C /* Adapter */,
-			);
-			path = Structural;
-			sourceTree = "<group>";
-		};
-		AD45B05A20FE06A80012BF4C /* Factory */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Factory;
-			sourceTree = "<group>";
-		};
-		AD45B05B20FE06C70012BF4C /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		AD45B05C20FE06EB0012BF4C /* Observer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Observer;
-			sourceTree = "<group>";
-		};
 		AD45B05D20FE06FE0012BF4C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +146,73 @@
 				AD45B03520FE05A60012BF4C /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADC1AB86210F6367009652DB /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB87210F6371009652DB /* Factory */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		ADC1AB87210F6371009652DB /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB8C210F63B8009652DB /* Buttons */,
+				ADC1AB93210F6480009652DB /* Factory */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		ADC1AB88210F6383009652DB /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB89210F638A009652DB /* Adapter */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		ADC1AB89210F638A009652DB /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		ADC1AB8A210F6396009652DB /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB8B210F63B3009652DB /* Iterator */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		ADC1AB8B210F63B3009652DB /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		ADC1AB8C210F63B8009652DB /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB8D210F63E8009652DB /* Button.swift */,
+				ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */,
+				ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		ADC1AB93210F6480009652DB /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB94210F64A2009652DB /* ButtonMaker.swift */,
+				ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */,
+				ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +363,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */,
 				AD45B02C20FE05A50012BF4C /* ViewController.swift in Sources */,
+				ADC1AB95210F64A2009652DB /* ButtonMaker.swift in Sources */,
+				ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */,
+				ADC1AB8E210F63E8009652DB /* Button.swift in Sources */,
+				ADC1AB97210F64E3009652DB /* TouchableOpacityMaker.swift in Sources */,
 				AD45B02A20FE05A50012BF4C /* AppDelegate.swift in Sources */,
+				ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

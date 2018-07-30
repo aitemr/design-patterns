@@ -1,5 +1,5 @@
 //
-//  ButtonCreator.swift
+//  ButtonMaker.swift
 //  DesignPatterns
 //
 //  Created by Islam Temirbek on 7/30/18.

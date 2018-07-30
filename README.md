@@ -13,7 +13,7 @@ I hope that my codes will help you to solve some problems.
 
 Creational:
 
-- [Factory](https://refactoring.guru/design-patterns/factory-method)
+- [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
 - [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
 - [Object Pool](#)
 

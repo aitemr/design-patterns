@@ -14,6 +14,15 @@
 		AD45B03420FE05A60012BF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD45B03220FE05A60012BF4C /* LaunchScreen.storyboard */; };
 		AD45B03F20FE05A60012BF4C /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45B03E20FE05A60012BF4C /* DesignPatternsTests.swift */; };
 		AD45B04A20FE05A60012BF4C /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45B04920FE05A60012BF4C /* DesignPatternsUITests.swift */; };
+		AD69CF622110D96E0060BA84 /* GenericIPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF612110D96E0060BA84 /* GenericIPad.swift */; };
+		AD69CF642110D97F0060BA84 /* GenericIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF632110D97F0060BA84 /* GenericIPhone.swift */; };
+		AD69CF682110DA090060BA84 /* AppleIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF672110DA090060BA84 /* AppleIPhone.swift */; };
+		AD69CF6A2110DA130060BA84 /* AppleIPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF692110DA130060BA84 /* AppleIPad.swift */; };
+		AD69CF6E2110DA300060BA84 /* ChinaPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF6D2110DA300060BA84 /* ChinaPhone.swift */; };
+		AD69CF732110DA520060BA84 /* ChinaPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF722110DA520060BA84 /* ChinaPad.swift */; };
+		AD69CF762110DAAB0060BA84 /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF752110DAAB0060BA84 /* AppleFactory.swift */; };
+		AD69CF782110DAB50060BA84 /* ChinaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF772110DAB50060BA84 /* ChinaFactory.swift */; };
+		AD69CF7A2110DB8A0060BA84 /* DeviceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */; };
 		ADC1AB8E210F63E8009652DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8D210F63E8009652DB /* Button.swift */; };
 		ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */; };
 		ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */; };
@@ -53,6 +62,15 @@
 		AD45B04520FE05A60012BF4C /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD45B04920FE05A60012BF4C /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		AD45B04B20FE05A60012BF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD69CF612110D96E0060BA84 /* GenericIPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericIPad.swift; sourceTree = "<group>"; };
+		AD69CF632110D97F0060BA84 /* GenericIPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericIPhone.swift; sourceTree = "<group>"; };
+		AD69CF672110DA090060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIPhone.swift; sourceTree = "<group>"; };
+		AD69CF692110DA130060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleIPad.swift; sourceTree = "<group>"; };
+		AD69CF6D2110DA300060BA84 /* ChinaPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaPhone.swift; sourceTree = "<group>"; };
+		AD69CF722110DA520060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaPad.swift; sourceTree = "<group>"; };
+		AD69CF752110DAAB0060BA84 /* AppleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
+		AD69CF772110DAB50060BA84 /* ChinaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaFactory.swift; sourceTree = "<group>"; };
+		AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFactory.swift; sourceTree = "<group>"; };
 		ADC1AB8D210F63E8009652DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableOpacity.swift; sourceTree = "<group>"; };
 		ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableWithoutFeedback.swift; sourceTree = "<group>"; };
@@ -148,9 +166,67 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AD69CF5F2110D85D0060BA84 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF742110DA9E0060BA84 /* Factories */,
+				AD69CF662110D9F70060BA84 /* Products */,
+				AD69CF652110D9E80060BA84 /* Interfaces */,
+				AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		AD69CF652110D9E80060BA84 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF612110D96E0060BA84 /* GenericIPad.swift */,
+				AD69CF632110D97F0060BA84 /* GenericIPhone.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		AD69CF662110D9F70060BA84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF6C2110DA220060BA84 /* China */,
+				AD69CF6B2110DA170060BA84 /* Apple */,
+			);
+			name = Products;
+			path = Products/Products;
+			sourceTree = "<group>";
+		};
+		AD69CF6B2110DA170060BA84 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF672110DA090060BA84 /* AppleIPhone.swift */,
+				AD69CF692110DA130060BA84 /* AppleIPad.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		AD69CF6C2110DA220060BA84 /* China */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF6D2110DA300060BA84 /* ChinaPhone.swift */,
+				AD69CF722110DA520060BA84 /* ChinaPad.swift */,
+			);
+			path = China;
+			sourceTree = "<group>";
+		};
+		AD69CF742110DA9E0060BA84 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				AD69CF752110DAAB0060BA84 /* AppleFactory.swift */,
+				AD69CF772110DAB50060BA84 /* ChinaFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 		ADC1AB86210F6367009652DB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				AD69CF5F2110D85D0060BA84 /* Abstract Factory */,
 				ADC1AB87210F6371009652DB /* Factory */,
 			);
 			path = Creational;
@@ -363,14 +439,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD69CF762110DAAB0060BA84 /* AppleFactory.swift in Sources */,
 				ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */,
 				AD45B02C20FE05A50012BF4C /* ViewController.swift in Sources */,
 				ADC1AB95210F64A2009652DB /* ButtonMaker.swift in Sources */,
+				AD69CF6E2110DA300060BA84 /* ChinaPhone.swift in Sources */,
 				ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */,
+				AD69CF682110DA090060BA84 /* AppleIPhone.swift in Sources */,
 				ADC1AB8E210F63E8009652DB /* Button.swift in Sources */,
+				AD69CF782110DAB50060BA84 /* ChinaFactory.swift in Sources */,
+				AD69CF6A2110DA130060BA84 /* AppleIPad.swift in Sources */,
 				ADC1AB97210F64E3009652DB /* TouchableOpacityMaker.swift in Sources */,
 				AD45B02A20FE05A50012BF4C /* AppDelegate.swift in Sources */,
+				AD69CF622110D96E0060BA84 /* GenericIPad.swift in Sources */,
+				AD69CF732110DA520060BA84 /* ChinaPad.swift in Sources */,
+				AD69CF642110D97F0060BA84 /* GenericIPhone.swift in Sources */,
 				ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */,
+				AD69CF7A2110DB8A0060BA84 /* DeviceFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

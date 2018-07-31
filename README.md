@@ -14,7 +14,7 @@ I hope that my codes will help you to solve some problems.
 Creational:
 
 - [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
-- [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+- [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract Factory)
 - [Object Pool](#)
 
 Structural:

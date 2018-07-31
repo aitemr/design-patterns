@@ -14,7 +14,7 @@ I hope that my codes will help you to solve some problems.
 Creational:
 
 - [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
-- [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract Factory)
+- [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract%20Factory)
 - [Object Pool](#)
 
 Structural:

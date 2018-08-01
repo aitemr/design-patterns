@@ -7,5 +7,4 @@ install:
 # - ./install_swiftlint.sh
 
 script:
-
-- xcodebuild -project ./Designpatterns/DesignPatterns/DesignPatterns.xcodeproj -scheme Designpatterns | xcpretty -f `xcpretty-travis-formatter`
+- xcodebuild -project ./DesignPatterns/DesignPatterns.xcodeproj -scheme DesignPatterns | xcpretty -f `xcpretty-travis-formatter`

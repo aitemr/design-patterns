@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     
     func getFactory() -> DeviceFactory {
         if isOriginal {
-            return ChinaFactory()
+            return AppleFactory()
         }
-        return AppleFactory()
+        return ChinaFactory()
     }
 
 }

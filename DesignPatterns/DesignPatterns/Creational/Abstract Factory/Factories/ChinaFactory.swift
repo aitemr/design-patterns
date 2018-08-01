@@ -17,5 +17,4 @@ class ChinaFactory: DeviceFactory {
         let pad = ChinaPad()
         return pad
     }
-    
 }

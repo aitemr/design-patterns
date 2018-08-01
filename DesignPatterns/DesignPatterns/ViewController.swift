@@ -9,20 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var maker: ButtonMaker?
+    
+    var isOriginal: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        initialize()
-        render()
+        let factory = getFactory()
+        let client = AbstractFactoryClient(factory: factory)
+        _ = client.buildiPhone()
+        _ = client.buildIPad()
     }
     
-    func initialize() {
-        maker = TouchableOpacityMaker()
+    func getFactory() -> DeviceFactory {
+        if isOriginal {
+            return ChinaFactory()
+        }
+        return AppleFactory()
     }
-    
-    func render() {
-        maker?.renderWindow()
-    }
+
 }

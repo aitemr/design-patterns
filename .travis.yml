@@ -8,4 +8,4 @@ install:
 
 script:
 
-- xcodebuild test -project ./Designpatterns/DesignPatterns/DesignPatterns.xcodeproj -scheme Designpatterns | xcpretty -f `xcpretty-travis-formatter`
+- xcodebuild -project ./Designpatterns/DesignPatterns/DesignPatterns.xcodeproj -scheme Designpatterns | xcpretty -f `xcpretty-travis-formatter`

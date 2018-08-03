@@ -30,6 +30,13 @@
 		ADC1AB97210F64E3009652DB /* TouchableOpacityMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */; };
 		ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */; };
 		ADD91DA221116706005EEB39 /* AbstractFactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD91DA121116706005EEB39 /* AbstractFactoryClient.swift */; };
+		ADE99B002114A8C40065314C /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99AFF2114A8C40065314C /* Builder.swift */; };
+		ADE99B032114A9300065314C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B022114A9300065314C /* Car.swift */; };
+		ADE99B052114A9370065314C /* Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B042114A9370065314C /* Truck.swift */; };
+		ADE99B072114A9570065314C /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B062114A9570065314C /* CarBuilder.swift */; };
+		ADE99B092114A9EA0065314C /* TruckBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B082114A9EA0065314C /* TruckBuilder.swift */; };
+		ADE99B0B2114AA230065314C /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B0A2114AA230065314C /* Director.swift */; };
+		ADE99B0E2114AAD80065314C /* BuilderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B0D2114AAD80065314C /* BuilderClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +86,13 @@
 		ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableOpacityMaker.swift; sourceTree = "<group>"; };
 		ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableWithoutFeedbackMaker.swift; sourceTree = "<group>"; };
 		ADD91DA121116706005EEB39 /* AbstractFactoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryClient.swift; sourceTree = "<group>"; };
+		ADE99AFF2114A8C40065314C /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		ADE99B022114A9300065314C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		ADE99B042114A9370065314C /* Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truck.swift; sourceTree = "<group>"; };
+		ADE99B062114A9570065314C /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
+		ADE99B082114A9EA0065314C /* TruckBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckBuilder.swift; sourceTree = "<group>"; };
+		ADE99B0A2114AA230065314C /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
+		ADE99B0D2114AAD80065314C /* BuilderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +243,7 @@
 		ADC1AB86210F6367009652DB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				ADE99AFE2114A88D0065314C /* Builder */,
 				AD69CF5F2110D85D0060BA84 /* Abstract Factory */,
 				ADC1AB87210F6371009652DB /* Factory */,
 			);
@@ -292,6 +307,36 @@
 				ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */,
 			);
 			path = Factory;
+			sourceTree = "<group>";
+		};
+		ADE99AFE2114A88D0065314C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				ADE99B0C2114AA380065314C /* Interfaces */,
+				ADE99B012114A9260065314C /* Builders */,
+				ADE99B0A2114AA230065314C /* Director.swift */,
+				ADE99AFF2114A8C40065314C /* Builder.swift */,
+				ADE99B0D2114AAD80065314C /* BuilderClient.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		ADE99B012114A9260065314C /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				ADE99B062114A9570065314C /* CarBuilder.swift */,
+				ADE99B082114A9EA0065314C /* TruckBuilder.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		ADE99B0C2114AA380065314C /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				ADE99B022114A9300065314C /* Car.swift */,
+				ADE99B042114A9370065314C /* Truck.swift */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,22 +489,29 @@
 			files = (
 				AD69CF762110DAAB0060BA84 /* AppleFactory.swift in Sources */,
 				AD69CFA12110E3DE0060BA84 /* AppleIPhone.swift in Sources */,
+				ADE99B032114A9300065314C /* Car.swift in Sources */,
+				ADE99B002114A8C40065314C /* Builder.swift in Sources */,
 				ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */,
+				ADE99B052114A9370065314C /* Truck.swift in Sources */,
 				AD69CF9E2110E3D40060BA84 /* ChinaPad.swift in Sources */,
 				AD45B02C20FE05A50012BF4C /* ViewController.swift in Sources */,
+				ADE99B072114A9570065314C /* CarBuilder.swift in Sources */,
 				ADC1AB95210F64A2009652DB /* ButtonMaker.swift in Sources */,
 				ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */,
 				ADC1AB8E210F63E8009652DB /* Button.swift in Sources */,
 				ADD91DA221116706005EEB39 /* AbstractFactoryClient.swift in Sources */,
+				ADE99B0B2114AA230065314C /* Director.swift in Sources */,
 				AD69CF782110DAB50060BA84 /* ChinaFactory.swift in Sources */,
 				ADC1AB97210F64E3009652DB /* TouchableOpacityMaker.swift in Sources */,
 				AD45B02A20FE05A50012BF4C /* AppDelegate.swift in Sources */,
+				ADE99B0E2114AAD80065314C /* BuilderClient.swift in Sources */,
 				AD69CF622110D96E0060BA84 /* GenericIPad.swift in Sources */,
 				AD69CF642110D97F0060BA84 /* GenericIPhone.swift in Sources */,
 				ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */,
 				AD69CF9D2110E3D40060BA84 /* ChinaPhone.swift in Sources */,
 				AD69CFA22110E3DE0060BA84 /* AppleIPad.swift in Sources */,
 				AD69CF7A2110DB8A0060BA84 /* DeviceFactory.swift in Sources */,
+				ADE99B092114A9EA0065314C /* TruckBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

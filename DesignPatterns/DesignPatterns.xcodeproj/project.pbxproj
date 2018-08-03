@@ -253,6 +253,7 @@
 		ADC1AB87210F6371009652DB /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				ADE99B0F2114AD430065314C /* Interfaces */,
 				ADC1AB8C210F63B8009652DB /* Buttons */,
 				ADC1AB93210F6480009652DB /* Factory */,
 			);
@@ -292,7 +293,6 @@
 		ADC1AB8C210F63B8009652DB /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1AB8D210F63E8009652DB /* Button.swift */,
 				ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */,
 				ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */,
 			);
@@ -302,7 +302,6 @@
 		ADC1AB93210F6480009652DB /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1AB94210F64A2009652DB /* ButtonMaker.swift */,
 				ADC1AB96210F64E3009652DB /* TouchableOpacityMaker.swift */,
 				ADC1AB98210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift */,
 			);
@@ -335,6 +334,15 @@
 			children = (
 				ADE99B022114A9300065314C /* Car.swift */,
 				ADE99B042114A9370065314C /* Truck.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		ADE99B0F2114AD430065314C /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1AB8D210F63E8009652DB /* Button.swift */,
+				ADC1AB94210F64A2009652DB /* ButtonMaker.swift */,
 			);
 			path = Interfaces;
 			sourceTree = "<group>";

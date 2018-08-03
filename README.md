@@ -15,12 +15,9 @@ Creational:
 
 - [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
 - [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract%20Factory)
-- [Object Pool](#)
+- [Builder](./DesignPatterns/DesignPatterns/Creational/Builder)
 
 Structural:
-
-- [Adapter](https://refactoring.guru/design-patterns/adapter)
-- [Decorator](https://refactoring.guru/design-patterns/decorator)
 
 Behavioral:
 

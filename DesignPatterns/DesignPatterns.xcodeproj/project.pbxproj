@@ -37,6 +37,7 @@
 		ADE99B092114A9EA0065314C /* TruckBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B082114A9EA0065314C /* TruckBuilder.swift */; };
 		ADE99B0B2114AA230065314C /* Director.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B0A2114AA230065314C /* Director.swift */; };
 		ADE99B0E2114AAD80065314C /* BuilderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B0D2114AAD80065314C /* BuilderClient.swift */; };
+		ADE99B112114ADD80065314C /* FactoryClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE99B102114ADD80065314C /* FactoryClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		ADE99B082114A9EA0065314C /* TruckBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckBuilder.swift; sourceTree = "<group>"; };
 		ADE99B0A2114AA230065314C /* Director.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Director.swift; sourceTree = "<group>"; };
 		ADE99B0D2114AAD80065314C /* BuilderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderClient.swift; sourceTree = "<group>"; };
+		ADE99B102114ADD80065314C /* FactoryClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				ADE99B0F2114AD430065314C /* Interfaces */,
 				ADC1AB8C210F63B8009652DB /* Buttons */,
 				ADC1AB93210F6480009652DB /* Factory */,
+				ADE99B102114ADD80065314C /* FactoryClient.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -518,6 +521,7 @@
 				ADC1AB99210F64FB009652DB /* TouchableWithoutFeedbackMaker.swift in Sources */,
 				AD69CF9D2110E3D40060BA84 /* ChinaPhone.swift in Sources */,
 				AD69CFA22110E3DE0060BA84 /* AppleIPad.swift in Sources */,
+				ADE99B112114ADD80065314C /* FactoryClient.swift in Sources */,
 				AD69CF7A2110DB8A0060BA84 /* DeviceFactory.swift in Sources */,
 				ADE99B092114A9EA0065314C /* TruckBuilder.swift in Sources */,
 			);

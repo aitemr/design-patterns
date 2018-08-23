@@ -16,6 +16,7 @@ Creational:
 - [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
 - [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract%20Factory)
 - [Builder](./DesignPatterns/DesignPatterns/Creational/Builder)
+- [Singleton](./DesignPatterns/DesignPatterns/Creational/Singleton)
 
 Structural:
 

@@ -13,7 +13,7 @@ class LocationManager {
     
     private init() {}
     
-    func requestForLocation(){
+    func requestForLocation() {
         locationGranted = true
         print("Location granted")
     }

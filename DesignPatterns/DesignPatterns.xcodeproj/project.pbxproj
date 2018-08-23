@@ -23,6 +23,8 @@
 		AD69CF9E2110E3D40060BA84 /* ChinaPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */; };
 		AD69CFA12110E3DE0060BA84 /* AppleIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */; };
 		AD69CFA22110E3DE0060BA84 /* AppleIPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */; };
+		AD7F41D4212F031D00B86EC0 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F41D3212F031D00B86EC0 /* Singleton.swift */; };
+		AD7F41D6212F03AF00B86EC0 /* SingletonClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */; };
 		ADC1AB8E210F63E8009652DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8D210F63E8009652DB /* Button.swift */; };
 		ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */; };
 		ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */; };
@@ -80,6 +82,8 @@
 		AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPad.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/China/ChinaPad.swift"; sourceTree = SOURCE_ROOT; };
 		AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPhone.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/Apple/AppleIPhone.swift"; sourceTree = SOURCE_ROOT; };
 		AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPad.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/Apple/AppleIPad.swift"; sourceTree = SOURCE_ROOT; };
+		AD7F41D3212F031D00B86EC0 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClient.swift; sourceTree = "<group>"; };
 		ADC1AB8D210F63E8009652DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		ADC1AB8F210F6406009652DB /* TouchableOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableOpacity.swift; sourceTree = "<group>"; };
 		ADC1AB91210F644D009652DB /* TouchableWithoutFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableWithoutFeedback.swift; sourceTree = "<group>"; };
@@ -242,9 +246,19 @@
 			path = Factories;
 			sourceTree = "<group>";
 		};
+		AD7F41D2212F030900B86EC0 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F41D3212F031D00B86EC0 /* Singleton.swift */,
+				AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		ADC1AB86210F6367009652DB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				AD7F41D2212F030900B86EC0 /* Singleton */,
 				ADE99AFE2114A88D0065314C /* Builder */,
 				AD69CF5F2110D85D0060BA84 /* Abstract Factory */,
 				ADC1AB87210F6371009652DB /* Factory */,
@@ -508,6 +522,8 @@
 				AD45B02C20FE05A50012BF4C /* ViewController.swift in Sources */,
 				ADE99B072114A9570065314C /* CarBuilder.swift in Sources */,
 				ADC1AB95210F64A2009652DB /* ButtonMaker.swift in Sources */,
+				AD7F41D6212F03AF00B86EC0 /* SingletonClient.swift in Sources */,
+				AD7F41D4212F031D00B86EC0 /* Singleton.swift in Sources */,
 				ADC1AB90210F6406009652DB /* TouchableOpacity.swift in Sources */,
 				ADC1AB8E210F63E8009652DB /* Button.swift in Sources */,
 				ADD91DA221116706005EEB39 /* AbstractFactoryClient.swift in Sources */,

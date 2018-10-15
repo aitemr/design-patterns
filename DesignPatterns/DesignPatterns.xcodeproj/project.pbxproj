@@ -23,6 +23,7 @@
 		AD69CF9E2110E3D40060BA84 /* ChinaPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */; };
 		AD69CFA12110E3DE0060BA84 /* AppleIPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */; };
 		AD69CFA22110E3DE0060BA84 /* AppleIPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */; };
+		AD6C5D532174E4AE0008C4CC /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C5D522174E4AE0008C4CC /* Prototype.swift */; };
 		AD7F41D4212F031D00B86EC0 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F41D3212F031D00B86EC0 /* Singleton.swift */; };
 		AD7F41D6212F03AF00B86EC0 /* SingletonClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */; };
 		ADC1AB8E210F63E8009652DB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1AB8D210F63E8009652DB /* Button.swift */; };
@@ -78,10 +79,11 @@
 		AD69CF752110DAAB0060BA84 /* AppleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
 		AD69CF772110DAB50060BA84 /* ChinaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaFactory.swift; sourceTree = "<group>"; };
 		AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFactory.swift; sourceTree = "<group>"; };
-		AD69CF9B2110E3D40060BA84 /* ChinaPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPhone.swift; path = ChinaPhone.swift; sourceTree = "<group>"; };
-		AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPad.swift; path = ChinaPad.swift; sourceTree = "<group>"; };
-		AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPhone.swift; path = AppleIPhone.swift; sourceTree = "<group>"; };
-		AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPad.swift; path = AppleIPad.swift; sourceTree = "<group>"; };
+		AD69CF9B2110E3D40060BA84 /* ChinaPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChinaPhone.swift; sourceTree = "<group>"; };
+		AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChinaPad.swift; sourceTree = "<group>"; };
+		AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleIPhone.swift; sourceTree = "<group>"; };
+		AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleIPad.swift; sourceTree = "<group>"; };
+		AD6C5D522174E4AE0008C4CC /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		AD7F41D3212F031D00B86EC0 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClient.swift; sourceTree = "<group>"; };
 		ADC1AB8D210F63E8009652DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
@@ -149,10 +151,8 @@
 		AD45B02820FE05A50012BF4C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
-				ADC1AB8A210F6396009652DB /* Behavioral */,
 				ADC1AB86210F6367009652DB /* Creational */,
 				AD45B05D20FE06FE0012BF4C /* Resources */,
-				ADC1AB88210F6383009652DB /* Structural */,
 				AD45B02920FE05A50012BF4C /* AppDelegate.swift */,
 				AD45B02B20FE05A50012BF4C /* ViewController.swift */,
 			);
@@ -215,7 +215,6 @@
 				AD69CF6B2110DA170060BA84 /* Apple */,
 				AD69CF6C2110DA220060BA84 /* China */,
 			);
-			name = Products;
 			path = Products;
 			sourceTree = "<group>";
 		};
@@ -246,6 +245,14 @@
 			path = Factories;
 			sourceTree = "<group>";
 		};
+		AD6C5D512174E4660008C4CC /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				AD6C5D522174E4AE0008C4CC /* Prototype.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		AD7F41D2212F030900B86EC0 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +265,7 @@
 		ADC1AB86210F6367009652DB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				AD6C5D512174E4660008C4CC /* Prototype */,
 				AD69CF5F2110D85D0060BA84 /* Abstract Factory */,
 				ADE99AFE2114A88D0065314C /* Builder */,
 				ADC1AB87210F6371009652DB /* Factory */,
@@ -275,36 +283,6 @@
 				ADE99B102114ADD80065314C /* FactoryClient.swift */,
 			);
 			path = Factory;
-			sourceTree = "<group>";
-		};
-		ADC1AB88210F6383009652DB /* Structural */ = {
-			isa = PBXGroup;
-			children = (
-				ADC1AB89210F638A009652DB /* Adapter */,
-			);
-			path = Structural;
-			sourceTree = "<group>";
-		};
-		ADC1AB89210F638A009652DB /* Adapter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Adapter;
-			sourceTree = "<group>";
-		};
-		ADC1AB8A210F6396009652DB /* Behavioral */ = {
-			isa = PBXGroup;
-			children = (
-				ADC1AB8B210F63B3009652DB /* Iterator */,
-			);
-			path = Behavioral;
-			sourceTree = "<group>";
-		};
-		ADC1AB8B210F63B3009652DB /* Iterator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Iterator;
 			sourceTree = "<group>";
 		};
 		ADC1AB8C210F63B8009652DB /* Buttons */ = {
@@ -516,6 +494,7 @@
 				AD69CFA12110E3DE0060BA84 /* AppleIPhone.swift in Sources */,
 				ADE99B032114A9300065314C /* Car.swift in Sources */,
 				ADE99B002114A8C40065314C /* Builder.swift in Sources */,
+				AD6C5D532174E4AE0008C4CC /* Prototype.swift in Sources */,
 				ADC1AB92210F644D009652DB /* TouchableWithoutFeedback.swift in Sources */,
 				ADE99B052114A9370065314C /* Truck.swift in Sources */,
 				AD69CF9E2110E3D40060BA84 /* ChinaPad.swift in Sources */,

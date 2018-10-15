@@ -78,10 +78,10 @@
 		AD69CF752110DAAB0060BA84 /* AppleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
 		AD69CF772110DAB50060BA84 /* ChinaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaFactory.swift; sourceTree = "<group>"; };
 		AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceFactory.swift; sourceTree = "<group>"; };
-		AD69CF9B2110E3D40060BA84 /* ChinaPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPhone.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/China/ChinaPhone.swift"; sourceTree = SOURCE_ROOT; };
-		AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPad.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/China/ChinaPad.swift"; sourceTree = SOURCE_ROOT; };
-		AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPhone.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/Apple/AppleIPhone.swift"; sourceTree = SOURCE_ROOT; };
-		AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPad.swift; path = "DesignPatterns/Creational/Abstract Factory/Products/Apple/AppleIPad.swift"; sourceTree = SOURCE_ROOT; };
+		AD69CF9B2110E3D40060BA84 /* ChinaPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPhone.swift; path = ChinaPhone.swift; sourceTree = "<group>"; };
+		AD69CF9C2110E3D40060BA84 /* ChinaPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChinaPad.swift; path = ChinaPad.swift; sourceTree = "<group>"; };
+		AD69CF9F2110E3DE0060BA84 /* AppleIPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPhone.swift; path = AppleIPhone.swift; sourceTree = "<group>"; };
+		AD69CFA02110E3DE0060BA84 /* AppleIPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleIPad.swift; path = AppleIPad.swift; sourceTree = "<group>"; };
 		AD7F41D3212F031D00B86EC0 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		AD7F41D5212F03AF00B86EC0 /* SingletonClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClient.swift; sourceTree = "<group>"; };
 		ADC1AB8D210F63E8009652DB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
@@ -149,12 +149,12 @@
 		AD45B02820FE05A50012BF4C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				ADC1AB8A210F6396009652DB /* Behavioral */,
+				ADC1AB86210F6367009652DB /* Creational */,
+				AD45B05D20FE06FE0012BF4C /* Resources */,
+				ADC1AB88210F6383009652DB /* Structural */,
 				AD45B02920FE05A50012BF4C /* AppDelegate.swift */,
 				AD45B02B20FE05A50012BF4C /* ViewController.swift */,
-				ADC1AB86210F6367009652DB /* Creational */,
-				ADC1AB88210F6383009652DB /* Structural */,
-				ADC1AB8A210F6396009652DB /* Behavioral */,
-				AD45B05D20FE06FE0012BF4C /* Resources */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -180,10 +180,10 @@
 		AD45B05D20FE06FE0012BF4C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AD45B02D20FE05A50012BF4C /* Main.storyboard */,
 				AD45B03020FE05A60012BF4C /* Assets.xcassets */,
-				AD45B03220FE05A60012BF4C /* LaunchScreen.storyboard */,
 				AD45B03520FE05A60012BF4C /* Info.plist */,
+				AD45B03220FE05A60012BF4C /* LaunchScreen.storyboard */,
+				AD45B02D20FE05A50012BF4C /* Main.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -192,10 +192,10 @@
 			isa = PBXGroup;
 			children = (
 				AD69CF742110DA9E0060BA84 /* Factories */,
-				AD69CF662110D9F70060BA84 /* Products */,
 				AD69CF652110D9E80060BA84 /* Interfaces */,
-				AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */,
+				AD69CF662110D9F70060BA84 /* Products */,
 				ADD91DA121116706005EEB39 /* AbstractFactoryClient.swift */,
+				AD69CF792110DB8A0060BA84 /* DeviceFactory.swift */,
 			);
 			path = "Abstract Factory";
 			sourceTree = "<group>";
@@ -212,11 +212,11 @@
 		AD69CF662110D9F70060BA84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AD69CF6C2110DA220060BA84 /* China */,
 				AD69CF6B2110DA170060BA84 /* Apple */,
+				AD69CF6C2110DA220060BA84 /* China */,
 			);
 			name = Products;
-			path = Products/Products;
+			path = Products;
 			sourceTree = "<group>";
 		};
 		AD69CF6B2110DA170060BA84 /* Apple */ = {
@@ -258,10 +258,10 @@
 		ADC1AB86210F6367009652DB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
-				AD7F41D2212F030900B86EC0 /* Singleton */,
-				ADE99AFE2114A88D0065314C /* Builder */,
 				AD69CF5F2110D85D0060BA84 /* Abstract Factory */,
+				ADE99AFE2114A88D0065314C /* Builder */,
 				ADC1AB87210F6371009652DB /* Factory */,
+				AD7F41D2212F030900B86EC0 /* Singleton */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 		ADC1AB87210F6371009652DB /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				ADE99B0F2114AD430065314C /* Interfaces */,
 				ADC1AB8C210F63B8009652DB /* Buttons */,
 				ADC1AB93210F6480009652DB /* Factory */,
+				ADE99B0F2114AD430065314C /* Interfaces */,
 				ADE99B102114ADD80065314C /* FactoryClient.swift */,
 			);
 			path = Factory;
@@ -328,11 +328,11 @@
 		ADE99AFE2114A88D0065314C /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				ADE99B0C2114AA380065314C /* Interfaces */,
 				ADE99B012114A9260065314C /* Builders */,
-				ADE99B0A2114AA230065314C /* Director.swift */,
+				ADE99B0C2114AA380065314C /* Interfaces */,
 				ADE99AFF2114A8C40065314C /* Builder.swift */,
 				ADE99B0D2114AAD80065314C /* BuilderClient.swift */,
+				ADE99B0A2114AA230065314C /* Director.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -581,6 +581,7 @@
 				AD45B02E20FE05A50012BF4C /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		AD45B03220FE05A60012BF4C /* LaunchScreen.storyboard */ = {
@@ -589,6 +590,7 @@
 				AD45B03320FE05A60012BF4C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

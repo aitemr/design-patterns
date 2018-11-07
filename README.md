@@ -1,7 +1,6 @@
 # Design Patterns
 
 [![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
-[![Build Status](https://travis-ci.org/aitemr/design-patterns.svg?branch=master)](https://travis-ci.org/aitemr/design-patterns)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,11 +11,6 @@ I hope that my codes will help you to solve some problems.
 ## Patterns
 
 Creational:
-
-- [Factory](./DesignPatterns/DesignPatterns/Creational/Factory)
-- [Abstract Factory](./DesignPatterns/DesignPatterns/Creational/Abstract%20Factory)
-- [Builder](./DesignPatterns/DesignPatterns/Creational/Builder)
-- [Singleton](./DesignPatterns/DesignPatterns/Creational/Singleton)
 
 Structural:
 

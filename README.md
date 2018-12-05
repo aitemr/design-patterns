@@ -1,5 +1,6 @@
 # Design Patterns
 
+![Progress](https://img.shields.io/badge/progress-0%20%2F%2022%20-orange.svg)
 [![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

@@ -9,13 +9,35 @@ This is my personal repository of design patterns implementations on `Swift` tha
 
 I hope that my codes will help you to solve some problems.
 
-## Patterns
+## The Catalog of Design Patterns
 
-Creational:
+- [ ] [Creational](https://refactoring.guru/design-patterns/creational-patterns)
+    - [ ] Singleton
+	- [ ] Factory Method
+	- [ ] Abstract Factory
+	- [ ] Builder
+	- [ ] Prototype
 
-Structural:
+- [ ] [Structural](https://refactoring.guru/design-patterns/structural-patterns)
+    - [ ] Adapter
+	- [ ] Bridge
+	- [ ] Composite
+	- [ ] Decorator
+	- [ ] Facade
+    - [ ] Flyweight
+    - [ ] Proxy
 
-Behavioral:
+- [ ] [Behavioral](https://refactoring.guru/design-patterns/structural-patterns)
+    - [ ] Chain of Responsibility
+	- [ ] Command
+	- [ ] Iterator
+	- [ ] Mediator
+	- [ ] Memento
+    - [ ] Observer
+    - [ ] State
+    - [ ] Strategy
+    - [ ] Template Method
+    - [ ] Visitor
 
 ## Dependencies
 

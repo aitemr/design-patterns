@@ -4,15 +4,21 @@ disabled_rules:
   - force_cast
   - operator_whitespace
   - trailing_whitespace
+  - todo
+  - closure_parameter_position
+  - large_tuple
+  - unused_optional_binding
 
 line_length:
-  - 120 #warning
-  - 150 #error
+  error: 120
 
 type_body_length:
-  - 400 #warning
-  - 600 #error
+  error: 100
 
 file_length:
-  - 800 #warning
-  - 1000 #error
+  error: 200
+
+function_body_length:
+  error: 20
+
+reporter: "xcode"

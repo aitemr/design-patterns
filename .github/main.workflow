@@ -1,6 +1,6 @@
 workflow "New workflow" {
-	  on = "push"
-	  resolves = ["swiftlint"]
+    on = "push"
+    resolves = ["swiftlint"]
 }
 	
 action "swiftlint" {

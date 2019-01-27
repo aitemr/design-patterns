@@ -1,6 +1,6 @@
 # Design Patterns
 
-![Progress](https://img.shields.io/badge/progress-0%20%2F%2022%20-orange.svg)
+![Progress](https://img.shields.io/badge/progress-1%20%2F%2022%20-orange.svg)
 [![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,7 +12,7 @@ I hope that my codes will help you to solve some problems.
 ## The Catalog of Design Patterns
 
 - [ ] [Creational](https://refactoring.guru/design-patterns/creational-patterns)
-    - [ ] Singleton
+    - [x] [Singleton](https://github.com/aitemr/design-patterns/tree/master/Creational/Singleton.playground)
 	- [ ] Factory Method
 	- [ ] Abstract Factory
 	- [ ] Builder

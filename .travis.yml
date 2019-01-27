@@ -1,10 +1,24 @@
 language: swift
-osx_image: xcode9
-
-install:
-
-- gem install xcpretty-travis-formatter
-# - ./install_swiftlint.sh
-
+osx_image: xcode10
+env:
+  global:
+    - SDK=iphoneos
+    - TARGET=armv7-apple-ios10
+  matrix:
+    - PLAYGROUND_DIR="design-patterns.playground"
 script:
-- xcodebuild -project ./DesignPatterns/DesignPatterns.xcodeproj -scheme DesignPatterns | xcpretty -f `xcpretty-travis-formatter`
+  xcrun swift --version &&
+  cd "${PLAYGROUND_DIR}" &&
+  xcrun -sdk "${SDK}"
+    swiftc -target "${TARGET}"
+           -emit-library -emit-module -module-name AuxiliarySources
+           Sources/*.swift &&
+  if ! xcrun swiftc -emit-imported-modules Contents.swift |
+        grep -q "PlaygroundSupport";
+  then
+    cat <(echo "import AuxiliarySources") Contents.swift > main.swift &&
+    xcrun -sdk "${SDK}"
+      swiftc -target "${TARGET}"
+        -I "." -L "." -lAuxiliarySources -module-link-name AuxiliarySources
+        -o Playground main.swift;
+  fi

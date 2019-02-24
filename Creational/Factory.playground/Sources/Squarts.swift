@@ -1,9 +1,7 @@
 import Foundation
 
 public struct Squarts: Exercise {
-    
     public var name: String = "Squarts"
-    
     public var type: String = "Exercise for legs"
     
     public func start() {

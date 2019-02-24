@@ -5,7 +5,6 @@ public enum Exercises {
 }
 
 public struct FactoryExercise {
-    
     public static let shared = FactoryExercise()
     
     public func createExercise(name: Exercises) -> Exercise {
@@ -16,5 +15,4 @@ public struct FactoryExercise {
             return Squarts()
         }
     }
-    
 }

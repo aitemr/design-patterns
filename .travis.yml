@@ -6,6 +6,7 @@ env:
     - TARGET=armv7-apple-ios10
   matrix:
     - PLAYGROUND_DIR="Creational/Singleton.playground"
+    - PLAYGROUND_DIR="Creational/Factory.playground"
 script:
   xcrun swift --version &&
   cd "${PLAYGROUND_DIR}" &&
@@ -16,6 +17,7 @@ script:
   if ! xcrun swiftc -emit-imported-modules Contents.swift |
         grep -q "PlaygroundSupport";
   then
+  
     cat <(echo "import AuxiliarySources") Contents.swift > main.swift &&
     xcrun -sdk "${SDK}"
       swiftc -target "${TARGET}"

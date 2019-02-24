@@ -14,7 +14,7 @@ I hope that my codes will help you to solve some problems.
 
 - [ ] [Creational](https://refactoring.guru/design-patterns/creational-patterns)
     - [x] [Singleton](https://github.com/aitemr/design-patterns/tree/master/Creational/Singleton.playground)
-	- [ ] Factory Method
+	- [X] [Factory Method](https://github.com/aitemr/design-patterns/tree/master/Creational/Factory.playground)
 	- [ ] Abstract Factory
 	- [ ] Builder
 	- [ ] Prototype

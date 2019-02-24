@@ -1,6 +1,6 @@
 # Design Patterns
 
-![Progress](https://img.shields.io/badge/progress-1%20%2F%2022%20-orange.svg)
+![Progress](https://img.shields.io/badge/progress-2%20%2F%2022%20-orange.svg)
 [![Build Status](https://travis-ci.org/aitemr/design-patterns.svg?branch=master)](https://travis-ci.org/aitemr/design-patterns)
 [![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
 [![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)

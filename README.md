@@ -12,7 +12,7 @@ I hope that my codes will help you to solve some problems.
 
 ## The Catalog of Design Patterns
 
-- [ ] [Creational](https://refactoring.guru/design-patterns/creational-patterns)
+- [ ] [Creational](./Creational)
     - [x] [Singleton](./Creational/Singleton.playground)
 	- [x] [Factory Method](./Creational/Factory.playground)
 	- [x] [Abstract Factory](./Creational/AbstractFactory.playground)

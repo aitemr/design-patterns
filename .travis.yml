@@ -7,6 +7,7 @@ env:
   matrix:
     - PLAYGROUND_DIR="Creational/Singleton.playground"
     - PLAYGROUND_DIR="Creational/Factory.playground"
+    - PLAYGROUND_DIR="Creational/AbstractFactory.playground"
 script:
   xcrun swift --version &&
   cd "${PLAYGROUND_DIR}" &&

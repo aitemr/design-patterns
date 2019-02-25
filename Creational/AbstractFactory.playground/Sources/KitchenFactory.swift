@@ -7,16 +7,16 @@ public struct KitchenFactory: AbstractFactory {
     
     public func createChair() -> Chair {
         print("Kitchen chair created")
-        return ChairKitchen()
+        return KitchenChair()
     }
     
     public func createTable() -> Table {
         print("Kitchen table created")
-        return TableKitchen()
+        return KitchenTable()
     }
     
     public func createSofa() -> Sofa {
         print("Kitchen sofa created")
-        return SofaKitchen()
+        return KitchenSofa()
     }
 }

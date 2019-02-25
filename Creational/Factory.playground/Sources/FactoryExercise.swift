@@ -1,7 +1,7 @@
 import Foundation
 
 public enum Exercises {
-    case jumping, squarts
+    case jumping, squats
 }
 
 public struct FactoryExercise {
@@ -11,8 +11,8 @@ public struct FactoryExercise {
         switch name {
         case .jumping:
             return Jumping()
-        case .squarts:
-            return Squarts()
+        case .squats:
+            return Squats()
         }
     }
 }

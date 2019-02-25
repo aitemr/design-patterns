@@ -8,9 +8,9 @@ func executeExercises() {
 
 func createExercises() {
     let jumping = FactoryExercise.shared.createExercise(name: .jumping)
-    let squarts = FactoryExercise.shared.createExercise(name: .squarts)
+    let squats = FactoryExercise.shared.createExercise(name: .squats)
     exercises.append(jumping)
-    exercises.append(squarts)
+    exercises.append(squats)
 }
 
 func runCardioExercises() {

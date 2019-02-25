@@ -1,14 +1,14 @@
 import Foundation
 
-public struct Squarts: Exercise {
-    public var name: String = "Squarts"
+public struct Squats: Exercise {
+    public var name: String = "Squats"
     public var type: String = "Exercise for legs"
     
     public func start() {
-        print("Start squarts")
+        print("Start Squats")
     }
     
     public func stop() {
-        print("Stop squarts")
+        print("Stop Squats")
     }
 }

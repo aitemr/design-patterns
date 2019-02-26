@@ -7,7 +7,7 @@
     <a href="https://img.shields.io/badge/progress-3%20%2F%2022%20-red.svg" ><img alt="progress" src="https://img.shields.io/badge/progress-3%20%2F%2022%20-red.svg" /></a>
     <a href="https://img.shields.io/badge/swift-4.2.1-orange.svg" ><img alt="language" src="https://img.shields.io/badge/swift-4.2.1-orange.svg" /></a>
     <a href="https://t.me/aitemr" ><img alt="contact" src="https://img.shields.io/badge/contact-%40aitemr-blue.svg" /></a>
-    <a href="./LICENSE" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
+    <a href="./LICENSE.md" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
   </h1>
 </p>
 
@@ -127,4 +127,4 @@ If you have a question, find a bug, or just want to say hi, please open an [issu
 
 ## License
 
-[MIT License](./LICENSE) © Islam Temirbek
+[MIT License](./LICENSE.md) © Islam Temirbek

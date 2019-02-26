@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/swift-logo.png" height="200">
+  <img src=".github/swift-logo.jpg" height="200">
   <h1 align="center">
     Swift Patterns
     <br>

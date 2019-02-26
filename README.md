@@ -3,14 +3,13 @@
   <h1 align="center">
     Swift Patterns
     <br>
+    <a href="https://travis-ci.org/aitemr/design-patterns"><img alt="build-status" src="https://travis-ci.org/aitemr/design-patterns.svg?branch=master" /></a>
+    <a href="https://img.shields.io/badge/progress-3%20%2F%2022%20-orange.svg" ><img alt="progress" src="https://img.shields.io/badge/progress-3%20%2F%2022%20-orange.svg" /></a>
+    <a href="https://img.shields.io/badge/swift-4.0-orange.svg" ><img alt="language" src="https://img.shields.io/badge/swift-4.0-orange.svg" /></a>
+    <a href="https://t.me/aitemr" ><img alt="contact" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
+    <a href="./LICENSE" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
   </h1>
 </p>
-
-![Progress](https://img.shields.io/badge/progress-3%20%2F%2022%20-orange.svg)
-[![Build Status](https://travis-ci.org/aitemr/design-patterns.svg?branch=master)](https://travis-ci.org/aitemr/design-patterns)
-[![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)](#)
-[![@aitemr](https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg)](https://t.me/aitemr)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A curated collection of idiomatic design & application patterns for Swift language.
 

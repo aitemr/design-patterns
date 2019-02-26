@@ -5,9 +5,9 @@ env:
     - SDK=iphoneos
     - TARGET=armv7-apple-ios10
   matrix:
-    - PLAYGROUND_DIR="Creational/Singleton.playground"
-    - PLAYGROUND_DIR="Creational/Factory.playground"
-    - PLAYGROUND_DIR="Creational/AbstractFactory.playground"
+    - PLAYGROUND_DIR="creational/Singleton.playground"
+    - PLAYGROUND_DIR="creational/Factory.playground"
+    - PLAYGROUND_DIR="creational/AbstractFactory.playground"
 script:
   xcrun swift --version &&
   cd "${PLAYGROUND_DIR}" &&

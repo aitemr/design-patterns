@@ -5,7 +5,7 @@
     <br>
     <a href="https://travis-ci.org/aitemr/design-patterns"><img alt="build-status" src="https://travis-ci.org/aitemr/design-patterns.svg?branch=master" /></a>
     <a href="https://img.shields.io/badge/progress-3%20%2F%2022%20-orange.svg" ><img alt="progress" src="https://img.shields.io/badge/progress-3%20%2F%2022%20-orange.svg" /></a>
-    <a href="https://img.shields.io/badge/swift-4.0-orange.svg" ><img alt="language" src="https://img.shields.io/badge/swift-4.0-orange.svg" /></a>
+    <a href="https://img.shields.io/badge/swift-4.2.1-orange.svg" ><img alt="language" src="https://img.shields.io/badge/swift-4.2.1-orange.svg" /></a>
     <a href="https://t.me/aitemr" ><img alt="contact" src="https://img.shields.io/badge/contact-%40aitemr-brightgreen.svg" /></a>
     <a href="./LICENSE" ><img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" /></a>
   </h1>
